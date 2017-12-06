@@ -2,6 +2,17 @@ import numpy as np
 import cv2
 import glob
 
+######  Input  #######
+
+images = glob.glob('*.jpg')
+
+#######  Output  #########
+
+out_fn = 'parameters.npz'
+
+#######  Code  ########
+
+
 # termination criteria
 criteria = (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 30, 0.001)
 # prepare object points, like (0,0,0), (1,0,0), (2,0,0) ....,(6,5,0)
@@ -10,8 +21,8 @@ objp[:, :2] = np.mgrid[0:5, 0:7].T.reshape(-1, 2)
 # Arrays to store object points and image points from all the images.
 objpoints = []  # 3d point in real world space
 imgpoints = []  # 2d points in image plane.
-images = glob.glob('*.jpg')
-print(images)
+
+# print(images)
 i = 0
 img_size = []
 for fname in images:
@@ -41,5 +52,5 @@ print(dist)
 print(rvecs)
 print(tvecs)
 
-np.savez('parameters.npz', mtx=mtx, dist=dist, rvecs=rvecs, tvecs=tvecs)
+np.savez(out_fn, mtx=mtx, dist=dist, rvecs=rvecs, tvecs=tvecs)
 exit()

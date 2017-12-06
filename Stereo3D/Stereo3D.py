@@ -2,6 +2,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
+######  Input  #######
 
 parameters = np.load('parameters.npz')
 mtx = parameters['mtx']
@@ -9,11 +10,21 @@ dist = parameters['dist']
 rvecs = parameters['rvecs']
 tvecs = parameters['tvecs']
 
-parameters_RTE = np.load('parameters_RTE_KD.npz')
+parameters_RTE = np.load('parameters_KD.npz')
 R = parameters_RTE['R']
 T = parameters_RTE['T']
 E = parameters_RTE['E']
 
+imgL = cv2.imread('KD_L.jpg')
+imgR = cv2.imread('KD_R.jpg')
+
+#######  Output  #########
+
+out_fn = 'KD.ply'
+
+
+
+#######Code########
 ply_header = '''ply
 format ascii 1.0
 element vertex %(vert_num)d
@@ -37,8 +48,7 @@ def create_output(vertices, colors, filename):
         np.savetxt(f, vertices, fmt='%f %f %f %d %d %d ')
 
 
-imgL = cv2.imread('KDL.jpg')
-imgR = cv2.imread('KDR.jpg')
+
 # imgL = cv2.pyrDown(cv2.imread('Left.jpg'))
 # imgR = cv2.pyrDown(cv2.imread('Left.jpg'))
 
@@ -68,13 +78,13 @@ print(disp.shape)
 # plt.show()
 plt.imshow((disp-min_disp)/num_disp, plt.get_cmap('gray'))
 # plt.imshow(disp, plt.get_cmap('gray'))
-plt.show()
+# plt.show()
 
 
 # h, w = imgL.shape[:2]
 Q = np.float32([[1,  0,  0, -640],
-                [0,  -1,  0, 640],  # turn points 180 deg around x-axis,
-                [0,  0,  0,  -1460],  # so that y-axis looks up
+                [0,  -1,  0, 640],
+                [0,  0,  0,  -1460],
                 [0,  0,  1,    0]])
 
 # R_Left, R_Right, P_Left, P_Right, Q, ROI1, ROI2 = cv2.stereoRectify(mtx, dist, mtx, dist, imgL.shape[:2], R, T)
@@ -87,6 +97,5 @@ out_points = points_3D[mask_map]
 print(out_points.shape)
 out_colors = colors_3D[mask_map]
 print(out_colors.shape)
-out_fn = 'KD_True.ply'
 create_output(out_points, out_colors, out_fn)
 print('%s saved' % out_fn)

@@ -2,11 +2,20 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
+######  Input  #######
+
 parameters = np.load('parameters.npz')
 mtx = parameters['mtx']
 dist = parameters['dist']
 
+img1 = cv2.imread('KD_L.jpg', 0)
+img2 = cv2.imread('KD_R.jpg', 0)
 
+#######  Output  #########
+
+out_fn = 'parameters_KD.npz'
+
+#######  Code  ########
 def drawlines(img1, img2, lines, pts1, pts2):
     r, c = img1.shape
     img1 = cv2.cvtColor(img1, cv2.COLOR_GRAY2BGR)
@@ -21,8 +30,6 @@ def drawlines(img1, img2, lines, pts1, pts2):
     return img1, img2
 
 
-img1 = cv2.imread('VTL.jpg', 0)
-img2 = cv2.imread('VTR.jpg', 0)
 
 scaling_factor = 1.0
 img1 = cv2.resize(img1, None, fx=scaling_factor, fy=scaling_factor, interpolation=cv2.INTER_AREA)
@@ -71,9 +78,9 @@ print(R)
 print(T)
 print(E)
 print(F)
-# np.savez('parameters_RTE_VT.npz', R=R, T=T, E=E, F=F)
-np.savez('parameters_RTE_VT.npz', R=R, T=T, E=E, F=F)
-# np.savez('parameters_RTE_KD.npz', R=R, T=T, E=E, F=F)
+# np.savez('parameters_VT.npz', R=R, T=T, E=E, F=F)
+np.savez(out_fn, R=R, T=T, E=E, F=F)
+# np.savez('parameters_KD.npz', R=R, T=T, E=E, F=F)
 # select only inlier points
 pts1 = pts1[mask.ravel() == 1]
 pts2 = pts2[mask.ravel() == 1]
