@@ -3,40 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6699ad30-cb3f-4e57-ad55-33070845eac0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/3D Reconstruction Intro.pptx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CameraCalibration/CameraCalibration.py" afterPath="$PROJECT_DIR$/CameraCalibration/CameraCalibration.py" />
-      <change beforePath="$PROJECT_DIR$/CameraCalibration/parameters.npz" afterPath="$PROJECT_DIR$/CameraCalibration/parameters.npz" />
-      <change beforePath="$PROJECT_DIR$/EpipolarGeometry/EpipolarGeometry.py" afterPath="$PROJECT_DIR$/EpipolarGeometry/EpipolarGeometry.py" />
-      <change beforePath="$PROJECT_DIR$/EpipolarGeometry/KDL.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/EpipolarGeometry/KDR.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/EpipolarGeometry/MKL.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/EpipolarGeometry/MKR.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/EpipolarGeometry/VTL.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/EpipolarGeometry/VTR.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/EpipolarGeometry/parameters.npz" afterPath="$PROJECT_DIR$/EpipolarGeometry/parameters.npz" />
-      <change beforePath="$PROJECT_DIR$/EpipolarGeometry/parameters_RTE_KD.npz" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/EpipolarGeometry/parameters_RTE_MK.npz" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/EpipolarGeometry/parameters_RTE_VT.npz" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/KDL.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/KDR.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Li_Yunzhe_Proposal.docx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MKL.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MKR.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Stereo3D/KDL.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Stereo3D/KDR.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Stereo3D/MK.ply" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Stereo3D/MKL.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Stereo3D/MKR.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Stereo3D/Stereo3D.py" afterPath="$PROJECT_DIR$/Stereo3D/Stereo3D.py" />
-      <change beforePath="$PROJECT_DIR$/Stereo3D/VT.ply" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Stereo3D/VTL.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Stereo3D/VTR.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Stereo3D/parameters.npz" afterPath="$PROJECT_DIR$/Stereo3D/parameters.npz" />
-      <change beforePath="$PROJECT_DIR$/Stereo3D/parameters_RTE_KD.npz" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Stereo3D/parameters_RTE_MK.npz" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Stereo3D/parameters_RTE_VT.npz" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/VTL.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/VTR.jpg" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -71,8 +37,8 @@
       <file leaf-file-name="EpipolarGeometry.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/EpipolarGeometry/EpipolarGeometry.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="8" selection-end-column="25" />
+            <state relative-caret-position="195">
+              <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -117,8 +83,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1680" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="width" value="838" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -184,8 +150,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -393,7 +359,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -402,7 +369,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24737945" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1910867" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2008547" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16849817" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -438,6 +405,30 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/EpipolarGeometry/EpipolarGeometry.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpipolarGeometry/EpipolarGeometry.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpipolarGeometry/EpipolarGeometry.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/EpipolarGeometry/EpipolarGeometry.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -612,8 +603,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/EpipolarGeometry/EpipolarGeometry.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="8" selection-end-column="25" />
+        <state relative-caret-position="195">
+          <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
           <folding />
         </state>
       </provider>
